@@ -4,7 +4,7 @@ module.exports = {
   mode: "jit",
   theme: {
     fontFamily: {
-      Roboto: ["Roboto", "sans-serif"],
+      Roboto: ["Raleway", "sans-serif"],
       Poppins: ['Poppins', "sans-serif"],
     },
     extend: {

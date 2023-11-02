@@ -19,7 +19,7 @@ function App() {
     })
   }
   return (
-    <>
+    <div className='font-Roboto'>
       {
         active ? (
           <div onClick={() => toUp()} className='fixed right-5 bottom-5 cursor-pointer rounded-md w-10 h-10 bg-[#1977cc] hover:bg-[#4d91cc] flex justify-center items-center' style={{ transition: "0.5s" }} >
@@ -27,7 +27,7 @@ function App() {
           </div>
         ) : null}
       <HomePage />
-    </>
+    </div>
   );
 }
 export default App;
