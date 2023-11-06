@@ -20,11 +20,11 @@ const Departments = () => {
             <p className='text-gray-500 text-center font-semibold pb-10'>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
             <div className='flex w-full flex-col 800px:flex-row '>
                 <div className=' w-[100%] 800px:w-[20%] text-h1Color font-semibold'>
-                    <p className={`p-2 800px:p-0 800px:bg-white bg-[#1977cc] text-black mt-5 800px:mt-0 w-full cursor-pointer hover:text-[#1977cc] 800px:pt-5 ${active === 0 ? 'text-white 800px:text-[#1977cc]' : ''}`} onClick={() => setActive(0)}>Cardiology</p>
-                    <p className={`p-2 800px:p-0 800px:bg-white bg-[#1977cc] text-black mt-5 800px:mt-0 w-full cursor-pointer hover:text-[#1977cc] 800px:pt-5 ${active === 1 ? 'text-white 800px:text-[#1977cc]' : ''}`} onClick={() => setActive(1)}>Neurology</p>
-                    <p className={`p-2 800px:p-0 800px:bg-white bg-[#1977cc] text-black mt-5 800px:mt-0 w-full cursor-pointer hover:text-[#1977cc] 800px:pt-5 ${active === 2 ? 'text-white 800px:text-[#1977cc]' : ''}`} onClick={() => setActive(2)}>Hepatology</p>
-                    <p className={`p-2 800px:p-0 800px:bg-white bg-[#1977cc] text-black mt-5 800px:mt-0 w-full cursor-pointer hover:text-[#1977cc] 800px:pt-5 ${active === 3 ? 'text-white 800px:text-[#1977cc]' : ''}`} onClick={() => setActive(3)}>Pediatrics</p>
-                    <p className={`p-2 800px:p-0 800px:bg-white bg-[#1977cc] text-black mt-5 800px:mt-0 w-full cursor-pointer hover:text-[#1977cc] 800px:pt-5 ${active === 4 ? 'text-white 800px:text-[#1977cc]' : ''}`} onClick={() => setActive(4)}>Eye Care</p>
+                    <p className={`p-2 800px:p-0 800px:bg-white bg-[#1977cc] text-black mt-5 800px:mt-0 w-full cursor-pointer 800px:hover:text-[#1977cc] 800px:pt-5 ${active === 0 ? 'text-white 800px:text-[#1977cc]' : ''}`} onClick={() => setActive(0)}>Cardiology</p>
+                    <p className={`p-2 800px:p-0 800px:bg-white bg-[#1977cc] text-black mt-5 800px:mt-0 w-full cursor-pointer 800px:hover:text-[#1977cc] 800px:pt-5 ${active === 1 ? 'text-white 800px:text-[#1977cc]' : ''}`} onClick={() => setActive(1)}>Neurology</p>
+                    <p className={`p-2 800px:p-0 800px:bg-white bg-[#1977cc] text-black mt-5 800px:mt-0 w-full cursor-pointer 800px:hover:text-[#1977cc] 800px:pt-5 ${active === 2 ? 'text-white 800px:text-[#1977cc]' : ''}`} onClick={() => setActive(2)}>Hepatology</p>
+                    <p className={`p-2 800px:p-0 800px:bg-white bg-[#1977cc] text-black mt-5 800px:mt-0 w-full cursor-pointer 800px:hover:text-[#1977cc] 800px:pt-5 ${active === 3 ? 'text-white 800px:text-[#1977cc]' : ''}`} onClick={() => setActive(3)}>Pediatrics</p>
+                    <p className={`p-2 800px:p-0 800px:bg-white bg-[#1977cc] text-black mt-5 800px:mt-0 w-full cursor-pointer 800px:hover:text-[#1977cc] 800px:pt-5 ${active === 4 ? 'text-white 800px:text-[#1977cc]' : ''}`} onClick={() => setActive(4)}>Eye Care</p>
                 </div>
                 <div className='w-[10%] mt-5 hidden 800px:block'>
                     <hr className={`w-[2px] h-10 ${active === 0 ? 'border-2 border-[#1977cc]' : 'border-2'}`} />
