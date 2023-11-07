@@ -15,9 +15,14 @@ const Swiperr = () => {
         <Swiper
             modules={[Pagination, Autoplay]}
             spaceBetween={0}
-            slidesPerView={2}
+            slidesPerView={1}
             pagination={{ clickable: true }}
             autoplay={{ delay: 2000 }}
+            breakpoints={{
+                800: {
+                    slidesPerView: 2,
+                },
+            }}
         >
             <SwiperSlide>
                 <div className={`${styles.section} 800px:px-20 py-24 `}>
