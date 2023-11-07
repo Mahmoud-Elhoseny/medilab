@@ -9,7 +9,7 @@ import Appointment from './Appointment.js'
 import Departments from './Departments.js'
 import Doctors from './Doctors.js'
 import Questions from './Questions.js'
-import Carousel from './Carousel.js'
+import Swiperr from './Swiperr.js'
 import Gallery from './Gallery.js'
 import Contact from './Contact.js'
 import Footer from './Footer.js'
@@ -27,7 +27,7 @@ const HomePage = () => {
             <Departments />
             <Doctors />
             <Questions />
-            <Carousel />
+            <Swiperr />
             <Gallery />
             <Contact />
             <Footer />
