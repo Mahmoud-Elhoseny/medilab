@@ -90,27 +90,27 @@ const NavBar = ({ active }) => {
                                     <RxCross1 size={30} className=' fixed right-5 top-10' onClick={() => setOpen(false)} />
                                     <ul className="p-5">
                                         <li className="mb-4">
-                                            <a href="#Home" className="hover:text-blue-500">
+                                            <a href="#Home" className="hover:text-blue-500" onClick={() => setOpen(false)}>
                                                 Home
                                             </a>
                                         </li>
                                         <li className="mb-4">
-                                            <a href="#About" className="hover:text-blue-500">
+                                            <a href="#About" className="hover:text-blue-500" onClick={() => setOpen(false)}>
                                                 About
                                             </a>
                                         </li>
                                         <li className="mb-4">
-                                            <a href="#Services" className="hover:text-blue-500">
+                                            <a href="#Services" className="hover:text-blue-500" onClick={() => setOpen(false)}>
                                                 Services
                                             </a>
                                         </li>
                                         <li className="mb-4">
-                                            <a href="#Departments" className="hover:text-blue-500">
+                                            <a href="#Departments" className="hover:text-blue-500" onClick={() => setOpen(false)}>
                                                 Departments
                                             </a>
                                         </li>
                                         <li className="mb-4">
-                                            <a href="#Doctors" className="hover:text-blue-500">
+                                            <a href="#Doctors" className="hover:text-blue-500" onClick={() => setOpen(false)}>
                                                 Doctors
                                             </a>
                                         </li>
@@ -186,7 +186,7 @@ const NavBar = ({ active }) => {
                                             </div>
                                         </li>
                                         <li >
-                                            <a href="#Contact" className='hover:text-blue-500'>Contact</a>
+                                            <a href="#Contact" className='hover:text-blue-500' onClick={() => setOpen(false)}>Contact</a>
                                         </li>
                                     </ul>
                                 </div>
