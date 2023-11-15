@@ -1,6 +1,9 @@
 import React from 'react';
 import styles from '../styles/styles';
-import { AiOutlineGift } from 'react-icons/ai';
+import { HiOutlineLocationMarker } from "react-icons/hi";
+import { FaRegEnvelope } from "react-icons/fa";
+import { IoIosPhonePortrait } from "react-icons/io";
+
 const Gallery = () => {
 
 
@@ -25,21 +28,21 @@ const Gallery = () => {
                     <div className='w-full 800px:w-[30%]'>
                         <div className='group mb-10'>
                             <div className='group-hover:bg-[#1977cc] float-left flex items-center justify-center bg-[#d6e9fa] w-[50px] h-[50px]  rounded-full' style={{ transition: "0.5s" }}>
-                                <AiOutlineGift size={25} className='text-[#1977cc] group-hover:text-white' style={{ transition: "0.5s" }} />
+                                <HiOutlineLocationMarker size={25} className='text-[#1977cc] group-hover:text-white' style={{ transition: "0.5s" }} />
                             </div>
                             <h4 className='ml-[70px] mb-[5px] text-[25px] font-semibold text-[#2c4964]'>Location:</h4>
                             <p className='ml-[70px] text-[15px] text-[#4b7dab]'>A108 Adam Street, New York, NY 535022</p>
                         </div>
                         <div className='group mb-10'>
                             <div className='group-hover:bg-[#1977cc] float-left flex items-center justify-center bg-[#d6e9fa] w-[50px] h-[50px]  rounded-full' style={{ transition: "0.5s" }}>
-                                <AiOutlineGift size={25} className='text-[#1977cc] group-hover:text-white' style={{ transition: "0.5s" }} />
+                                <FaRegEnvelope size={25} className='text-[#1977cc] group-hover:text-white' style={{ transition: "0.5s" }} />
                             </div>
                             <h4 className='ml-[70px] mb-[5px] text-[25px] font-semibold text-[#2c4964]'>Email:</h4>
                             <p className='ml-[70px] text-[15px] text-[#4b7dab]'>info@example.com</p>
                         </div>
                         <div className='group mb-7 800px:mb-0'>
                             <div className='group-hover:bg-[#1977cc] float-left flex items-center justify-center bg-[#d6e9fa] w-[50px] h-[50px]  rounded-full' style={{ transition: "0.5s" }}>
-                                <AiOutlineGift size={25} className='text-[#1977cc] group-hover:text-white' style={{ transition: "0.5s" }} />
+                                <IoIosPhonePortrait size={25} className='text-[#1977cc] group-hover:text-white' style={{ transition: "0.5s" }} />
                             </div>
                             <h4 className='ml-[70px] mb-[5px] text-[25px] font-semibold text-[#2c4964]'>Call:</h4>
                             <p className='ml-[70px] text-[15px] text-[#4b7dab]'>+1 5589 55488 55s</p>
